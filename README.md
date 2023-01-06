@@ -46,5 +46,5 @@ Users should be able to:
 I want to improve my Frontend skills and know more of responsive web design
 
 ## Author
-- Frontend Mentor - [@IgnacioFigueroa](https://www.frontendmentor.io/profile/IgnacioFigueroa)
+- Frontend Mentor - [@ignaciofigueroadev](https://www.frontendmentor.io/profile/ignaciofigueroadev)
 
