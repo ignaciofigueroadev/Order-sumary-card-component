@@ -1,0 +1,139 @@
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: url(../images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: var(--Pale-blue);
+    font-size: var(--Font-size);
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 20em;
+    background-color: var(--White);
+    border-radius: 1em;
+}
+
+.image {
+    border-radius: 1em 1em 0 0;
+}
+
+.information {
+    text-align: center;
+    margin: 1em;
+    padding: 1em;
+}
+
+.information__title {
+    font-size: 1.25em;
+    font-weight: 800;
+    margin-bottom: 1em;
+    color: var(--Dark-blue);
+}
+
+.information__description {
+    color: var(--Desaturated-blue);
+}
+
+.price {
+    width: 18em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;
+    margin-left: 1em;
+    background-color: var(--Very-pale-blue);
+    border-radius: 1em;
+}
+
+.price__image {
+    width: 3em;
+}
+
+.price__title {
+    font-weight: 800;
+    color: var(--Dark-blue);
+}
+
+.price__info {
+    font-size: .85em;
+    color: var(--Desaturated-blue);
+}
+
+.price__change {
+    font-size: .75em;
+    text-decoration: underline;
+    color: var(--Bright-blue);
+    transition: .1s ease;
+}
+
+.price__change:hover {
+    color: var(--Desaturated-blue);
+}
+
+.options {
+    width: 100%;
+    margin: 2em 0 2em 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    margin: .75em;
+    padding: .75em;
+    border-radius: 3em;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.options__button--1 {
+    background-color: var(--Bright-blue);
+    color: var(--White);
+    transition: .1s ease;
+}
+
+.options__button--1:hover {
+    background-color: var(--Dark-blue);
+}
+
+.options__button--2 {
+    color: var(--Desaturated-blue);
+    transition: .1s ease;
+}
+
+.options__button--2:hover {
+    color: var(--Dark-blue);
+}
+
+.attribution {
+    color: var(--Dark-blue);
+    text-align: center;
+    margin: 3em 1em 3em 1em;
+    font-size: .85em;
+}
+
+.attribution__link {
+    text-decoration: underline;
+}
+
+.attribution__link:hover {
+    color: var(--Bright-blue);
+}
+
+@media screen and (max-width: 1440px) {
+    body {
+        background-image: url(../images/pattern-background-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+}
